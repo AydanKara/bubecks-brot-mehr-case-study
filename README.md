@@ -221,7 +221,7 @@ The case study content inside the aysek.dev portfolio is structured with dedicat
 - Technology stack
 
 ---
-
+<!--- 
 ## Screenshots
 
 Screenshots can be added here without exposing private source code.
@@ -245,7 +245,7 @@ Example usage after adding screenshots:
 ![BUBECK’s Brot & mehr Homepage Desktop](./screenshots/homepage-desktop.png)
 ![BUBECK’s Brot & mehr Product Catalog](./screenshots/product-catalog.png)
 ```
-
+ --->
 ---
 
 ## What This Project Demonstrates
