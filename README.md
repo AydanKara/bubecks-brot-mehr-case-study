@@ -221,6 +221,50 @@ The case study content inside the aysek.dev portfolio is structured with dedicat
 - Technology stack
 
 ---
+
+## Source Code Structure
+
+The production codebase follows a modular React structure. The exact source code remains private, but the architecture is organized around reusable components, feature modules, route-level pages and backend integration.
+
+```text
+src/
+├── assets/              # Images and media imported through the app
+├── components/
+│   ├── ui/              # shadcn/ui base components
+│   ├── admin/           # CMS and admin panel components
+│   ├── header/          # Header and navigation
+│   ├── hero/            # Hero slider and homepage hero sections
+│   ├── catalog/         # Product catalog and category components
+│   ├── footer/          # Footer layout
+│   ├── kontakt/         # Contact form and inquiry flow
+│   ├── geschichte/      # Bakery history and timeline sections
+│   ├── location/        # Location, map and opening-hours sections
+│   ├── reviews/         # Customer review components
+│   ├── cookie-consent/  # GDPR cookie consent components
+│   ├── legal/           # Impressum, Datenschutz and legal pages
+│   ├── skeletons/       # Loading skeletons and placeholder states
+│   └── shared/          # Shared layout and utility components
+├── contexts/            # React contexts, including auth-related state
+├── constants/           # Static configuration and reusable constants
+├── data/                # Static data and JSON-style content
+├── features/
+│   └── admin/           # Admin feature modules, API logic, hooks and forms
+├── hooks/               # Custom React hooks
+├── integrations/        # Backend/Supabase integration layer
+├── pages/               # Route-level page components
+├── services/            # Data services and business logic helpers
+└── types/               # TypeScript type definitions
+
+public/
+├── images/              # Public image assets
+├── sitemap.xml          # XML sitemap
+├── robots.txt           # Robots configuration
+└── favicon.ico          # Website favicon
+```
+
+This structure separates public-facing website sections from CMS/admin functionality, making the project easier to maintain, extend and present as a real business web application.
+
+---
 <!--- 
 ## Screenshots
 
